@@ -18,7 +18,7 @@ class _NotificationFullState extends State<NotificationFull> {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(13.0),
+        padding: const EdgeInsets.all(5),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [

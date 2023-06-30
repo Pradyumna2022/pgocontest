@@ -4,8 +4,8 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:otp_text_field/otp_field.dart';
 import 'package:otp_text_field/otp_field_style.dart';
 import 'package:otp_text_field/style.dart';
+import 'package:pgocontest/bottom_navi.dart';
 
-import '../homeScreen/fhome_screen.dart';
 
 class OtpVerification extends StatefulWidget {
 
@@ -80,7 +80,7 @@ class _OtpVerificationState extends State<OtpVerification> {
                       width: MediaQuery.of(context).size.width*0.39,
                       height: MediaQuery.of(context).size.height*0.048,
                       child: ElevatedButton(onPressed: (){
-                        Get.to(FHomeScreen());
+                        Get.to(BottomNav());
                       }, child: Text("Continue"),
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Color(0xff300469),

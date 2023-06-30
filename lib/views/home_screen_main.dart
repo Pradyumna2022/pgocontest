@@ -88,7 +88,7 @@ class _FHomeScreenState extends State<FHomeScreen> {
 
                   // ************ start tab creation *************
                   Container(
-                    height: 40,
+                    height: 30,
                     child: TabBar(
                       indicatorColor: Color(0xffFF3D00),
                       labelColor: Color(0xffFF3D00), //<-- selected text color

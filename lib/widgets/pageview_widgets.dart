@@ -147,7 +147,7 @@ class _PageViewWidgetState extends State<PageViewWidget> {
                                 row(),
                                 SizedBox(width: MediaQuery.of(context).size.width*0.41,),
                                 SizedBox(
-                                    width: 100,
+                                    width: MediaQuery.of(context).size.width*0.24,
                                     child: ElevatedButton(onPressed: (){
                                       pageController.nextPage(duration: Duration(microseconds: 1000),
                                           curve: Curves.bounceInOut);
@@ -220,13 +220,13 @@ class _PageViewWidgetState extends State<PageViewWidget> {
                                 fontSize: 25,fontWeight: FontWeight.bold,color:
                             Colors.deepPurple[800]
                             ),),
-                            SizedBox(height: MediaQuery.of(context).size.height*0.07,),
+                            SizedBox(height: MediaQuery.of(context).size.height*0.05,),
                             Row(
                               children: [
                                 row(),
                                 SizedBox(width: MediaQuery.of(context).size.width*0.41,),
                                 SizedBox(
-                                    width: 100,
+                                    width: MediaQuery.of(context).size.width*0.24,
                                     child: ElevatedButton(onPressed: (){
                                       pageController.nextPage(duration: Duration(microseconds: 1000),
                                           curve: Curves.bounceInOut);
@@ -307,7 +307,7 @@ class _PageViewWidgetState extends State<PageViewWidget> {
                                 row(),
                                 SizedBox(width: MediaQuery.of(context).size.width*0.41,),
                                 SizedBox(
-                                    width: 100,
+                                    width: MediaQuery.of(context).size.width*0.24,
                                     child: ElevatedButton(onPressed: (){
                                       pageController.nextPage(duration: Duration(microseconds: 1000),
                                           curve: Curves.bounceIn);
@@ -390,7 +390,7 @@ class _PageViewWidgetState extends State<PageViewWidget> {
                                 row(),
                                 SizedBox(width: MediaQuery.of(context).size.width*0.41,),
                                 SizedBox(
-                                    width: 100,
+                                    width: MediaQuery.of(context).size.width*0.24,
                                     child: ElevatedButton(onPressed: (){
                                       Get.to(PhoneLogin());
                                     }, child: Text("Next"),

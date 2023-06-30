@@ -8,7 +8,7 @@ import 'dart:io';
 import 'dart:async';
 import '../../screen/privacy.dart';
 import '../../screen/term_and_condition.dart';
-import '../helpandsupport/help_and_support.dart';
+import '../helpSelf/helpself.dart';
 import '../how_to_play_rules/how_toPlay.dart';
 import '../myContest_page/my_contest_screeen.dart';
 import '../mytransaction_page/my_transactionsScreen.dart';
