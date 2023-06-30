@@ -45,7 +45,7 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
           initialSelectedTab: "Home",
           useSafeArea: true, // default: true, apply safe area wrapper
           labels: const ["Home", "Result", "Profile", "Contact Us"],
-          icons: const [Icons.home, Icons.yard_rounded, Icons.people_alt, Icons.contacts_rounded],
+          icons: const [Icons.home, Icons.upcoming_rounded, Icons.people_alt, Icons.contacts_rounded],
 
           // optional badges, length must be same with labels
           badges: [
