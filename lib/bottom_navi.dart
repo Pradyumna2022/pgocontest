@@ -81,19 +81,19 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
               show: true, // true / false
             ),
           ],
-          tabSize: 50,
-          tabBarHeight: 55,
+          tabSize: 65,
+          tabBarHeight: 60,
           textStyle: const TextStyle(
-            fontSize: 12,
-            color: Colors.black,
+            fontSize: 14,
+            color: Colors.white70,
             fontWeight: FontWeight.w500,
           ),
-          tabIconColor: Colors.blue[600],
-          tabIconSize: 28.0,
+          tabIconColor: Colors.white70,
+          tabIconSize: 30.0,
           tabIconSelectedSize: 26.0,
-          tabSelectedColor: Colors.blue[900],
-          tabIconSelectedColor: Colors.white,
-          tabBarColor: const Color(0xFFAFAFAF),
+          tabSelectedColor: Colors.white70,
+          tabIconSelectedColor: Color(0xff300469),
+          tabBarColor: const Color(0xff300469),
           onTabItemSelected: (int value) {
             setState(() {
               _tabController!.index = value;
