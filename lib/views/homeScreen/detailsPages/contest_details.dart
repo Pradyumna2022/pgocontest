@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
+import '../../../widget/kbcquestion_widget.dart';
+import '../letsplay/lets_play.dart';
+
 class ContestDetails extends StatefulWidget {
   const ContestDetails({super.key});
 
@@ -294,7 +297,9 @@ class _ContestDetailsState extends State<ContestDetails> {
                 child: SizedBox(
                   height: Get.height*0.05,
                   width: Get.width*0.38,
-                  child: ElevatedButton(onPressed: (){},
+                  child: ElevatedButton(onPressed: (){
+                    Get.to(LetPlay());
+                  },
                     child: Text("Start Quiz"), style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xff2E0467),
                   shape: RoundedRectangleBorder(

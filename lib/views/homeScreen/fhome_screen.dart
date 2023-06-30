@@ -4,7 +4,6 @@ import 'package:get/get_core/src/get_main.dart';
 import '../notification/notification_Full.dart';
 import 'detailsPages/contest_details.dart';
 import 'drawer_Screen/drawer_screen.dart';
-import 'myContest_page/my_contest_screeen.dart';
 import 'mytransaction_page/my_transactionsScreen.dart';
 
 class FHomeScreen extends StatefulWidget {
